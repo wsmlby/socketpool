@@ -1,0 +1,38 @@
+{
+  "name": "socketpool",
+  "preferGlobal": true,
+  "version": "0.1.0",
+  "author": "wsmlby <wsmlby@gmail.com>",
+  "description": "a pool for TCP Socket",
+  "contributors": [ 
+    {
+      "name": "wsmlby",
+      "email": "wsmlby@gmail.com"
+    } 
+  ],
+  "scripts":{
+	"test":"node ./test/test.js"
+  },
+  "main": "./lib/socketpool",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wsmlby/socketpool.git"
+  },
+  "keywords": [
+    "pool",
+    "socket",
+    "tcp"
+  ],
+  "dependencies" : {
+  		 "stagepool":"*"
+  },
+  "analyze": false,
+  "devDependencies": {
+  },
+  "bundledDependencies": [
+  ],  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.1"
+  }
+}
