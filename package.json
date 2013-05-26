@@ -1,7 +1,7 @@
 {
   "name": "socketpool",
   "preferGlobal": true,
-  "version": "0.1.2",
+  "version": "0.1.4",
   "author": "wsmlby <wsmlby@gmail.com>",
   "description": "a pool for TCP Socket",
   "contributors": [ 
